@@ -105,7 +105,6 @@ int main()
 
 	while(cin >> buf >> power){
 		while(buf[strlen(buf)-1]=='0') buf[strlen(buf)-1]=0;
-
 		init(x);
 		init(ret);
 		set(x, buf);
